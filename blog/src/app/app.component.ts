@@ -7,9 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   appName = 'blog app';
+  myEvent(evt:any){
+    console.warn(evt);
+  }
   name="shivam";
 getName(){
-    alert("shivam vora");
+    // alert("shivam vora");
   }
   obj = {
     name:'kelly',
@@ -17,6 +20,8 @@ getName(){
   }
   arr=['bruce','tonny','ivan','peter'];
   siteUrl = window.location.href;
+
+  
 }
 
 
