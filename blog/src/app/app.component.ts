@@ -9,7 +9,7 @@ export class AppComponent {
   appName = 'blog app';
   name="shivam";
 getName(){
-    return this.name
+    alert("shivam vora");
   }
   obj = {
     name:'kelly',
@@ -18,3 +18,5 @@ getName(){
   arr=['bruce','tonny','ivan','peter'];
   siteUrl = window.location.href;
 }
+
+
