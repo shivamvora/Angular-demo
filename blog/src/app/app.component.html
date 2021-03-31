@@ -15,7 +15,7 @@
 <button (click)="myEvent('this is click event')">Click Me</button>
 <br><br>
 <input type="text" #box (keyup)="myEvent(box.value)" placeholder="keyup" />
-<input type="text" #box (keydown.enter)="myEvent(box.value)" placeholder="keydown" />
-<input type="text" #box (blur)="myEvent('blur event')" placeholder="blur">
+<input type="text" #box1 (keydown.enter)="myEvent(box1.value)" placeholder="keydown" />
+<input type="text" (blur)="myEvent('blur event')" placeholder="blur">
 <h1 (mouseover)="myEvent('mouseover')" style="background-color:skyblue">mouseover</h1>
 <h1 (mouseleave)="myEvent('mouseleave')" style="background-color:skyblue">mouseleave </h1>
