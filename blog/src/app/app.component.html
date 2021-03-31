@@ -19,3 +19,7 @@
 <input type="text" (blur)="myEvent('blur event')" placeholder="blur">
 <h1 (mouseover)="myEvent('mouseover')" style="background-color:skyblue">mouseover</h1>
 <h1 (mouseleave)="myEvent('mouseleave')" style="background-color:skyblue">mouseleave </h1>
+
+<input type="text" (keyup)="getVal($any($event.target).value)" />
+
+<h1>{{currentVal}}</h1>

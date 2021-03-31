@@ -14,6 +14,12 @@ export class AppComponent {
 getName(){
     // alert("shivam vora");
   }
+  currentVal="";
+  getVal(val:any)
+  {
+    console.warn(val);
+    this.currentVal=val;
+  }
   obj = {
     name:'kelly',
     age:20
@@ -21,7 +27,6 @@ getName(){
   arr=['bruce','tonny','ivan','peter'];
   siteUrl = window.location.href;
 
-  
 }
 
 
