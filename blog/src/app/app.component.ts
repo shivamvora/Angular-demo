@@ -20,6 +20,11 @@ getName(){
     console.warn(val);
     this.currentVal=val;
   }
+  btnval="";
+  getValueFromButtonClick(val1:any){
+    console.warn(val1);
+    this.btnval=val1;
+  }
   obj = {
     name:'kelly',
     age:20

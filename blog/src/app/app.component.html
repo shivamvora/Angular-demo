@@ -22,4 +22,10 @@
 
 <input type="text" (keyup)="getVal($any($event.target).value)" />
 
+<input type="text" #box>
+
+<button (click)="getValueFromButtonClick(box.value)">Get Value</button>
+
+<h1>{{btnval}}</h1>
+
 <h1>{{currentVal}}</h1>
