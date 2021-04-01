@@ -38,6 +38,27 @@ getName(){
     this.disabledBox=false;
   }
   color='yellow';
+  data=[{
+    name:'shivam',
+    age:20,
+    email:'shivam@gmail.com'
+  },
+  {
+    name:'dehil',
+    age:20,
+    email:'dehil@gmail.com'
+  },
+  {
+    name:'mitul',
+    age:25,
+    email:'mitul@gmail.com'
+  },
+  {
+    name:'jemin',
+    age:26,
+    email:'jemin@gmail.com'
+  }
+]
 }
 
 

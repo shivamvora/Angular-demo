@@ -58,3 +58,27 @@
     </h2>
 
 </div>
+<h1>For loop</h1>
+<!-- <h4 *ngFor="let item of data">
+    Name : {{item.name}}, Age : {{item.age}}
+</h4> -->
+
+<table border="1">
+    <tr>
+        <td>
+            Name
+        </td>
+        <td>
+            Age
+        </td>
+        <td>
+            Email
+        </td>
+
+    </tr>
+    <tr *ngFor="let item of data">
+        <td>{{item.name}}</td>
+        <td>{{item.age}}</td>
+        <td>{{item.email}}</td>
+    </tr>
+</table>
