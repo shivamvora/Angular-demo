@@ -32,6 +32,10 @@ getName(){
   arr=['bruce','tonny','ivan','peter'];
   siteUrl = window.location.href;
 
+  disabledBox=true;
+  enableBox(){
+    this.disabledBox=false;
+  }
 }
 
 

@@ -29,3 +29,9 @@
 <h1>{{btnval}}</h1>
 
 <h1>{{currentVal}}</h1>
+
+<input type="text" [disabled]="disabledBox" [value]="name" />
+<br>
+<input type="text" disabled={{disabledBox}} value={{name}} />
+<br>
+<button (click)="enableBox()">Enable TextBox </button>
