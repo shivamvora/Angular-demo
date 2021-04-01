@@ -82,3 +82,13 @@
         <td>{{item.email}}</td>
     </tr>
 </table>
+<br><br>
+<form #simpleForm="ngForm" (ngSubmit)="getUserValue(simpleForm.value)">
+    <input type="text" ngModel name="username" placeholder="enter name"> <br><br>
+    <input type="text" ngModel name="age" placeholder="enter age"> <br><br>
+    <input type="text" ngModel name="address" placeholder="enter address"> <br><br>
+    <input type="password" ngModel name="password" placeholder="enter password"> <br><br>
+
+    <button>Get User Values</button>
+
+</form>

@@ -59,6 +59,10 @@ getName(){
     email:'jemin@gmail.com'
   }
 ]
+
+getUserValue(value:any){
+  console.log(value);
+}
 }
 
 
