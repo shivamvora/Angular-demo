@@ -37,7 +37,7 @@ getName(){
   enableBox(){
     this.disabledBox=false;
   }
-
+  color='yellow';
 }
 
 
