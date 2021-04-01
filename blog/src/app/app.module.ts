@@ -6,12 +6,16 @@ import { AppComponent } from './app.component';
 import { UserListComponent } from './user-list/user-list.component';
 import { SignupComponent } from './user/signup/signup.component';
 import{FormsModule} from '@angular/forms';
+import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     UserListComponent,
-    SignupComponent
+    SignupComponent,
+    HeaderComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
