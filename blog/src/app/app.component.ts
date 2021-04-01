@@ -7,6 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   appName = 'blog app';
+  show=false;
   myEvent(evt:any){
     console.warn(evt);
   }
@@ -36,6 +37,7 @@ getName(){
   enableBox(){
     this.disabledBox=false;
   }
+
 }
 
 

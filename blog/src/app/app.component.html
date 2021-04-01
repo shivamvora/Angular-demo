@@ -35,3 +35,10 @@
 <input type="text" disabled={{disabledBox}} value={{name}} />
 <br>
 <button (click)="enableBox()">Enable TextBox </button>
+<h1 *ngIf="show else elseBlock">
+    if Block
+</h1>
+
+<ng-template #elseBlock>
+    <h1>else block</h1>
+</ng-template>
