@@ -59,7 +59,7 @@
 
 </div>
 <h1>For loop</h1>
-<!-- <h4 *ngFor="let item of data">
+ <h4 *ngFor="let item of data">
     Name : {{item.name}}, Age : {{item.age}}
 </h4> -->
 <!-- 
@@ -93,7 +93,28 @@
 
 </form>  -->
 
-
+<!-- header footer 
 <app-header></app-header>
 <h1>Make Header Footer in Angular</h1>
-<app-footer></app-footer>
+<app-footer></app-footer> -->
+
+<h1>Bootstrap in angular 10</h1>
+
+<p *ngFor="let alert of alerts">
+  <ngb-alert [type]="alert.type" (closed)="close(alert)">{{ alert.message }}</ngb-alert>
+</p>
+<p>
+  <button type="button" class="btn btn-primary" (click)="reset()">Reset</button>
+</p>
+
+<div class="btn-group btn-group-toggle">
+  <label class="btn-primary" ngbButtonLabel>
+    <input type="checkbox" ngbButton [(ngModel)]="model.left"> Left (pre-checked)
+  </label>
+  <label class="btn-primary" ngbButtonLabel>
+    <input type="checkbox" ngbButton [(ngModel)]="model.middle"> Middle
+  </label>
+  <label class="btn-primary" ngbButtonLabel>
+    <input type="checkbox" ngbButton [(ngModel)]="model.right"> Right
+  </label>
+</div>
