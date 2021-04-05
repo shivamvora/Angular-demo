@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 
+
 interface Alert {
   type: string;
   message: string;

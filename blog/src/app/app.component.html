@@ -98,23 +98,31 @@
 <h1>Make Header Footer in Angular</h1>
 <app-footer></app-footer> -->
 
+
+
 <h1>Bootstrap in angular 10</h1>
 
 <p *ngFor="let alert of alerts">
-  <ngb-alert [type]="alert.type" (closed)="close(alert)">{{ alert.message }}</ngb-alert>
+    <ngb-alert [type]="alert.type" (closed)="close(alert)">{{ alert.message }}</ngb-alert>
 </p>
 <p>
-  <button type="button" class="btn btn-primary" (click)="reset()">Reset</button>
+    <button type="button" class="btn btn-primary" (click)="reset()">Reset</button>
 </p>
 
 <div class="btn-group btn-group-toggle">
-  <label class="btn-primary" ngbButtonLabel>
-    <input type="checkbox" ngbButton [(ngModel)]="model.left"> Left (pre-checked)
-  </label>
-  <label class="btn-primary" ngbButtonLabel>
-    <input type="checkbox" ngbButton [(ngModel)]="model.middle"> Middle
-  </label>
-  <label class="btn-primary" ngbButtonLabel>
-    <input type="checkbox" ngbButton [(ngModel)]="model.right"> Right
-  </label>
+    <label class="btn-primary" ngbButtonLabel>
+        <input type="checkbox" ngbButton [(ngModel)]="model.left"> Left (pre-checked)
+    </label>
+    <label class="btn-primary" ngbButtonLabel>
+        <input type="checkbox" ngbButton [(ngModel)]="model.middle"> Middle
+    </label>
+    <label class="btn-primary" ngbButtonLabel>
+        <input type="checkbox" ngbButton [(ngModel)]="model.right"> Right
+    </label>
 </div>
+
+
+<h1>Material-ui angular </h1>
+<button mat-button color="primary">Angular</button>
+<button mat-raised-button>Basic</button>
+<mat-slider min="1" max="100"></mat-slider>

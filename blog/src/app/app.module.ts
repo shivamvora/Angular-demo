@@ -9,6 +9,9 @@ import{FormsModule} from '@angular/forms';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {MatButtonModule} from '@angular/material/button';
+import {MatSliderModule} from '@angular/material/slider';
 
 @NgModule({
   declarations: [
@@ -23,7 +26,10 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     AppRoutingModule,
     UsersModule,
     FormsModule,
-    NgbModule
+    NgbModule,
+    BrowserAnimationsModule,
+    MatButtonModule,
+    MatSliderModule
   ],
   providers: [],
   bootstrap: [AppComponent]
